@@ -1,6 +1,6 @@
-var express = require('express');
+const express = require('express');
 const userController = require('../controllers/userController');
-var router = express.Router();
+const router = express.Router();
 
 /* GET users listing. */
 //http://localhost:3000/users/
