@@ -3,7 +3,7 @@
     "_id": "c4872db7-42ae-40aa-b101-c869100bd7e4",
     "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
     "containerId": "",
-    "name": "http://localhost:3000/users/login",
+    "name": "GET users/login",
     "url": "http://localhost:3000/users/",
     "method": "GET",
     "sortNum": 30000,
@@ -17,7 +17,7 @@
     "_id": "f935d9be-c66d-462f-9901-3397ab307823",
     "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
     "containerId": "",
-    "name": "http://localhost:3000/company",
+    "name": "GET company",
     "url": "http://localhost:3000/company",
     "method": "GET",
     "sortNum": 40000,
@@ -25,6 +25,56 @@
     "modified": "2023-01-11T10:45:30.239Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "25ca2fad-1194-4747-aa2c-d1fcd839c928",
+    "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
+    "containerId": "",
+    "name": "GET staff",
+    "url": "http://localhost:3000/staff",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2023-01-11T13:54:26.342Z",
+    "modified": "2023-01-11T14:10:45.315Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bfc67814-a5e2-4a3b-84ec-9b506ac1ec9c",
+    "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
+    "containerId": "",
+    "name": "POST staff",
+    "url": "http://localhost:3000/staff",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2023-01-11T13:55:33.159Z",
+    "modified": "2023-01-11T14:35:23.445Z",
+    "headers": [
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"parichs\",\n  \"saraly\": 100000\n}",
+      "form": []
+    },
     "tests": []
   }
 ]
