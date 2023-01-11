@@ -3,12 +3,22 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
+const mongoose = require("mongoose");
 
 const indexRouter = require("./routes/index");
 const usersRouter = require("./routes/users");
 const companyRouter = require("./routes/company");
 
 const app = express();
+
+mongoose.set("strictQuery", true);
+mongoose.connect(
+  "mongodb+srv://parich:dokkooon@cluster0.xwmflwr.mongodb.net/node-online-api?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
