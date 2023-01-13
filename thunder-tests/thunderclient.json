@@ -31,12 +31,12 @@
     "_id": "25ca2fad-1194-4747-aa2c-d1fcd839c928",
     "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
     "containerId": "",
-    "name": "GET staff",
-    "url": "http://localhost:3000/staff",
-    "method": "GET",
+    "name": "DELETE staff",
+    "url": "http://localhost:3000/staff/63c104376663ae8d7726b8e0f",
+    "method": "DELETE",
     "sortNum": 50000,
     "created": "2023-01-11T13:54:26.342Z",
-    "modified": "2023-01-11T14:10:45.315Z",
+    "modified": "2023-01-13T07:28:23.679Z",
     "headers": [
       {
         "name": "Accept",
@@ -61,8 +61,13 @@
     "method": "POST",
     "sortNum": 60000,
     "created": "2023-01-11T13:55:33.159Z",
-    "modified": "2023-01-11T14:35:23.445Z",
+    "modified": "2023-01-13T04:03:41.636Z",
     "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
       {
         "name": "User-Agent",
         "value": "Thunder Client (https://www.thunderclient.com)",
@@ -72,9 +77,34 @@
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"name\": \"parichs\",\n  \"saraly\": 100000\n}",
+      "raw": "{\n  \"name\": \"Jone\",\n  \"saraly\": 100,\n  \"adress\": \"surin\",\n  \"age\" : 10\n}",
       "form": []
     },
+    "tests": []
+  },
+  {
+    "_id": "42a4063d-57aa-46bc-89f6-5b111871121c",
+    "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
+    "containerId": "",
+    "name": "GET staff",
+    "url": "http://localhost:3000/staff/",
+    "method": "GET",
+    "sortNum": 55000,
+    "created": "2023-01-13T07:00:12.068Z",
+    "modified": "2023-01-13T07:17:10.107Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
     "tests": []
   }
 ]

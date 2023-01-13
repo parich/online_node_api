@@ -15,10 +15,6 @@ const app = express();
 mongoose.set("strictQuery", true);
 mongoose.connect(
   "mongodb+srv://parich:dokkooon@cluster0.xwmflwr.mongodb.net/node-online-api?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
 );
 
 // view engine setup
