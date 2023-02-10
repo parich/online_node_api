@@ -18,4 +18,8 @@ router.post("/", staffController.insert);
 //http://localhost:3000/staff/
 router.delete("/:id", staffController.delecte);
 
+/*update*/
+//http://localhost:3000/staff/
+router.put("/:id", staffController.update);
+
 module.exports = router;

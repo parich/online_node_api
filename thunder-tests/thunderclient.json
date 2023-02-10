@@ -32,11 +32,11 @@
     "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
     "containerId": "",
     "name": "DELETE staff",
-    "url": "http://localhost:3000/staff/63c104376663ae8d7726b8e0f",
+    "url": "http://localhost:3000/staff/63c104386663ae8d7726b8e2",
     "method": "DELETE",
     "sortNum": 50000,
     "created": "2023-01-11T13:54:26.342Z",
-    "modified": "2023-01-13T07:28:23.679Z",
+    "modified": "2023-02-10T04:32:27.986Z",
     "headers": [
       {
         "name": "Accept",
@@ -105,6 +105,36 @@
       }
     ],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a2955c15-58a5-46b5-b532-3b0eb0121e9c",
+    "colId": "caabb094-0f64-417d-b5d3-4af4e143096a",
+    "containerId": "",
+    "name": "PUT staff",
+    "url": "http://localhost:3000/staff/63c1046eaff8877cb515b057",
+    "method": "PUT",
+    "sortNum": 52500,
+    "created": "2023-02-10T04:31:34.569Z",
+    "modified": "2023-02-10T08:44:48.006Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"par33\",\n  \"age\": 1021,\n  \"saraly\": 20201\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

@@ -14,7 +14,7 @@ const app = express();
 
 mongoose.set("strictQuery", true);
 mongoose.connect(
-  "mongodb+srv://parich:dokkooon@cluster0.xwmflwr.mongodb.net/node-online-api?retryWrites=true&w=majority",
+  "mongodb+srv://parich:iydmisf@cluster0.xwmflwr.mongodb.net/node-online-api?retryWrites=true&w=majority"
 );
 
 // view engine setup
